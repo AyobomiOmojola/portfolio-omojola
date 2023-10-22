@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import * as emailjs from "emailjs-com";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -16,7 +16,7 @@ export const ContactUs = () => {
     alertmessage: "",
     variant: "",
   });
-
+  const form = useRef();
   const handleSubmit = (e) => {
     e.preventDefault();
     setFormdata({ loading: true });
@@ -33,7 +33,7 @@ export const ContactUs = () => {
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
-        contactConfig.YOUR_USER_ID
+        "tsfN_i7jzAZ6vEZjH"
       )
       .then(
         (result) => {
@@ -78,7 +78,7 @@ export const ContactUs = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <Row className="sec_sp">
+        <Row className="sec_sp hello">
           <Col lg="12">
             <Alert
               //show={formData.show}
