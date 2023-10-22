@@ -230,10 +230,11 @@ p {
   text-decoration: none;
   border-radius: 10px;
   color: black;
-  margin: 0px 20px;
+  margin: 0px 40px;
 }
 .buttonr {
   display: flex;
   margin-top: 10px;
   align-items: center;
+  justify-content: center;
 }

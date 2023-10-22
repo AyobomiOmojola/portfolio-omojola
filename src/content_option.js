@@ -5,12 +5,11 @@ const meta = {
 };
 
 const introdata = {
-  title: "I’m OMOJOLA Ayo",
+  title: "HI, I’M AYO OMOJOLA",
   animated: {
-    first: "I'm all about CREATING",
-    second: "I'm all about MAINTAINING",
-    third: "I'm all about TESTING",
-    fourth: "I'm all about DEBUGGING",
+    first: "MAINTAINING",
+    second: "TESTING",
+    third: "DEBUGGING",
   },
   description:
     "I specialize in Coding, Debugging, Shipping, and Scaling right where Data and Logic meet.",

@@ -43,14 +43,14 @@ export const ChatServer = () => {
               to="https://proassist.up.railway.app/chat/john/?token=c5c0f6d7f4df1ae188eb2344bb96911a432b7402"
               target="_blank"
             >
-              Jane chat screen
+              Chat as Jane
             </Link>
             <Link
               className="white"
               to="https://proassist.up.railway.app/chat/jane/?token=b16facf56bb7564389d7db4e09dcf93bc14b94f8"
               target="_blank"
             >
-              John chat screen
+              Chat as John
             </Link>
           </div>
           <span>

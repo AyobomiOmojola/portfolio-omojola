@@ -13,7 +13,7 @@
 }
 
 button.btn.ac_btn:hover {
-  color: var(--secondary-color);
+  /* color: var(--secondary-color); */
 }
 
 .loading-bar {
