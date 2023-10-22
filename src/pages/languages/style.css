@@ -5,15 +5,14 @@
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem; */
-  margin-bottom: 100px;
   margin-top: 50px;
 }
 .About-header {
-  padding-bottom: 200px !important;
+  padding-bottom: 10px !important;
   margin-top: 50px;
 }
 .hello {
-  padding-bottom: 50px !important;
+  padding-bottom: 10px !important;
 }
 @media (max-width: 768px) {
   .About-header {
@@ -167,7 +166,7 @@ p {
 .image-row {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 91px;
   justify-content: center;
   margin-bottom: 62px;
 }
@@ -176,7 +175,9 @@ p {
     flex-wrap: wrap;
   }
 }
-
+.padding {
+  padding-bottom: 15px;
+}
 img {
   width: 74px;
   max-width: 100%;

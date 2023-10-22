@@ -72,13 +72,13 @@ export const ContactUs = () => {
           <title>{meta.title} | Contact</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="mb-5 mt-3 pt-md-3" id="contact">
           <Col lg="8">
             <h1 className="display-4 mb-4">Contact Me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <Row className="sec_sp hello">
+        <Row className="sec_sp hellop">
           <Col lg="12">
             <Alert
               //show={formData.show}
@@ -109,7 +109,6 @@ export const ContactUs = () => {
                 ""
               )}
             </address>
-            <p>{contactConfig.description}</p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">

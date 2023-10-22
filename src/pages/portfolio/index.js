@@ -14,7 +14,7 @@ export const Portfolio = () => {
           <title> Projects | {meta.title} </title>{" "}
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="mb-5 mt-3 pt-md-3" id="project">
           <Col lg="8">
             <h1 className="display-4 mb-4"> Projects </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
@@ -25,15 +25,13 @@ export const Portfolio = () => {
             <div className="content">
               <h1 className="title">TinkerTale</h1>
               <p className="desc">
-                This consist of a REST API with dynamic features for webapps
-                focused on bridging the gap between skilled professionals and
-                clients. It offers features such as creation of job openings for
-                professionals, allocation of those jobs to a qualified
-                professional, obtaining free professionals with no jobs at hand,
-                review and rating of professionals and many more. It also has a
-                dedicated real time one to one communication chat server between
-                clients and professionals by implementing the
-                power of WebSockets.
+                This REST API offers amazing possibilities for webapps that are
+                dedicated to story telling. It provides features like age-based
+                restrictions on the content users can view, a storytelling
+                competition where the highest voted stories are elevated to a
+                prestigious list and a variety of other features like archiving
+                stories, restriction of stories for non authenticated users and
+                many more.
               </p>
               <div className="tag">
                 <div className="tags">
@@ -50,20 +48,20 @@ export const Portfolio = () => {
                 </div>
               </div>
               <div className="button">
-                <Link
+                <a
                   className="source"
-                  to="https://github.com/AyobomiOmojola/_TinkerTale_"
+                  href="https://github.com/AyobomiOmojola/_TinkerTale_"
                   target="_blank"
                 >
                   Source code
-                </Link>
-                <Link
+                </a>
+                <a
                   className="white"
-                  to="https://tinkertale.up.railway.app/docs/"
+                  href="https://tinkertale.up.railway.app/docs/"
                   target="_blank"
                 >
                   Live API Doc.
-                </Link>
+                </a>
               </div>
             </div>
           </div>
@@ -96,20 +94,20 @@ export const Portfolio = () => {
                 </div>
               </div>
               <div className="button">
-                <Link
+                <a
                   className="source"
-                  to="https://github.com/AyobomiOmojola/ProAssist"
+                  href="https://github.com/AyobomiOmojola/ProAssist"
                   target="_blank"
                 >
                   Source code
-                </Link>
-                <Link
+                </a>
+                <a
                   className="white"
-                  to="https://proassist.up.railway.app/docs/"
+                  href="https://proassist.up.railway.app/docs/"
                   target="_blank"
                 >
                   Live API Doc.
-                </Link>
+                </a>
                 <Link className="black" to="/chat-server">
                   Chat server
                 </Link>

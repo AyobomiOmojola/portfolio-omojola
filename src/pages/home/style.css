@@ -57,7 +57,7 @@ section {
 }
 
 .intro_sec .intro {
-  max-width: 450px;
+  max-width: 490px;
   margin: 0 auto;
 }
 
@@ -232,4 +232,19 @@ section {
 
 .intro_sec .h_bg-image {
   filter: saturate(0.5);
+}
+.big {
+  font-size: 32px;
+}
+.bigger {
+  font-size: 18px;
+}
+.thick {
+  font-weight: 700 !important;
+  font-size: 28px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
 }

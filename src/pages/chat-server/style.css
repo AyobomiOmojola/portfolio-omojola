@@ -5,11 +5,10 @@
     column-gap: 4rem;
     -moz-column-gap: 4rem;
     -webkit-column-gap: 4rem; */
-  margin-bottom: 100px;
   margin-top: 50px;
 }
 .About-header {
-  padding-bottom: 200px !important;
+  padding-bottom: 10px !important;
   margin-top: 50px;
 }
 @media (max-width: 768px) {
@@ -19,7 +18,7 @@
 }
 
 .hello {
-  padding-bottom: 50px !important;
+  padding-bottom: 10px !important;
 }
 
 .po_item {
@@ -165,29 +164,6 @@ p {
   gap: 10px;  */
 }
 
-.image-row {
-  /* display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(100px, 1fr)
-  ); 
-  gap: 10px;  */
-  /* display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 10px; */
-  display: flex;
-  align-items: center;
-  gap: 100px;
-  justify-content: center;
-  margin-bottom: 62px;
-  /* flex-wrap: wrap; */
-}
-
-img {
-  width: 74px;
-  max-width: 100%;
-  height: auto;
-}
 h2 {
   color: #fff;
   font-size: 20px;

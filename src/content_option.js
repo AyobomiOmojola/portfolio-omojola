@@ -178,7 +178,7 @@ const dataportfolio = [
 
 const contactConfig = {
   YOUR_EMAIL: "ayojola8@gmail.com",
-  YOUR_FONE: "+234 803 987 4405",
+  YOUR_FONE: "+234 911 528 4190",
   description:
     "I specialize in Coding, Debugging, Shipping, and Scaling right where Data and Logic meet. ",
   // creat an emailjs.com account
@@ -190,7 +190,7 @@ const contactConfig = {
 
 const socialprofils = {
   github: "https://github.com/AyobomiOmojola",
-  linkedin: "https://linkedin.com",
+  linkedin: "https://www.linkedin.com/in/ayobomi-omojola-956918297/",
 };
 export {
   meta,

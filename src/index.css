@@ -52,9 +52,11 @@ h6 {
   font-family: Marcellus;
 }
 
-a,
-a:hover {
+a {
   color: var(--text-color);
+}
+a:hover {
+  color: var(--primary-color);
 }
 
 p {

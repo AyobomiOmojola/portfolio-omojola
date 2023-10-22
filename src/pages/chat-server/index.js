@@ -29,8 +29,7 @@ export const ChatServer = () => {
             TOKEN = Your Login Token <br />
           </p>
           <p>
-            <br /> The chat server url is to be constructed as follows: The chat
-            server url is to be constructed as follows:
+            <br /> The chat server url is to be constructed as follows:
             https://proassist.up.railway.app/chat/USERNAME/?token=TOKEN
           </p>
           <p>
@@ -38,20 +37,20 @@ export const ChatServer = () => {
             in with non expiry tokens; Jane(A Client) and John(A Professional).
           </p>
           <div className="buttonr">
-            <Link
+            <a
               className="source"
-              to="https://proassist.up.railway.app/chat/john/?token=c5c0f6d7f4df1ae188eb2344bb96911a432b7402"
+              href="https://proassist.up.railway.app/chat/john/?token=c5c0f6d7f4df1ae188eb2344bb96911a432b7402"
               target="_blank"
             >
               Chat as Jane
-            </Link>
-            <Link
+            </a>
+            <a
               className="white"
-              to="https://proassist.up.railway.app/chat/jane/?token=b16facf56bb7564389d7db4e09dcf93bc14b94f8"
+              href="https://proassist.up.railway.app/chat/jane/?token=b16facf56bb7564389d7db4e09dcf93bc14b94f8"
               target="_blank"
             >
               Chat as John
-            </Link>
+            </a>
           </div>
           <span>
             <br /> (Both Chat screens can be loaded on say two browser tabs)

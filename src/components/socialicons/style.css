@@ -1,6 +1,6 @@
 .stick_follow_icon {
   top: 50%;
-  left: 30px;
+  left: 10px;
   width: 20px;
   height: 200px;
   position: fixed;
@@ -12,11 +12,14 @@
   padding: 0;
   margin: 0;
 }
-
+a {
+  cursor: pointer !important;
+}
 .stick_follow_icon svg {
   width: 40px;
   height: 40px;
   fill: var(--text-color);
+  cursor: pointer;
 }
 
 .stick_follow_icon p {

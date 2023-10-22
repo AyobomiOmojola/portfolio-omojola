@@ -15,7 +15,9 @@ import skill14 from "./images/Vector (4).svg";
 import skill15 from "./images/Vector (5).svg";
 import skill16 from "./images/Vector (6).svg";
 import skill17 from "./images/Vector (7).svg";
+import Logo from "./images/wallpaperflare.com_wallpaper (15).jpg";
 export {
+  Logo,
   skill1,
   skill2,
   skill3,

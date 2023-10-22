@@ -79,6 +79,19 @@ export const Language = () => {
             </div>
           ))}
         </div>
+        <h3 className="color_sec py-4">Non Technical Skills</h3>
+        <p className="padding">
+          <strong>Communication</strong>
+        </p>
+        <p className="padding">
+          <strong>Time Management</strong>
+        </p>
+        <p className="padding">
+          <strong>Attention To Detail</strong>
+        </p>
+        <p className="padding">
+          <strong>Collaboration</strong>
+        </p>
       </Container>
     </HelmetProvider>
   );
