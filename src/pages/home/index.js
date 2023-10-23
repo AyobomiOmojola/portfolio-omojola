@@ -26,7 +26,7 @@ export const Home = () => {
               <div className="intro mx-auto flex">
                 <h2 className="mb-1x bigg">{introdata.title}</h2>
                 <h2 className="mb-1x big">BACKEND DEVELOPER</h2>
-                <div className="">
+                <div className="flexr">
                   <div>
                     <span className="texting"> I specialize in&nbsp;</span>
                   </div>
