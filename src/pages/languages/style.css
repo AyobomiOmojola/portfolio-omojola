@@ -26,7 +26,8 @@
   /* justify-content: center;
   flex-direction: column; */
   align-items: center;
-  margin: 6.5rem auto;
+  margin: 2.5rem auto;
+  margin-bottom: 6.5rem;
   padding: 59px;
   border: 1px solid #242424;
   border-radius: 10px;
@@ -179,16 +180,25 @@ p {
   padding-bottom: 15px;
 }
 img {
-  width: 74px;
+  width: 44px;
   max-width: 100%;
   height: auto;
 }
 h2 {
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.6px;
   padding-top: 8px;
+}
+
+ul {
+  list-style-type: circle !important; /* Use circle bullets */
+  /* color: red; */
+}
+
+.about {
+  padding-bottom: 35px;
 }

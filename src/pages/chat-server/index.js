@@ -25,16 +25,23 @@ export const ChatServer = () => {
             login Token
           </p>
           <p>
-            <br /> where USERNAME = Username of user you want to chat with and
-            TOKEN = Your Login Token <br />
+            <br /> Where USERNAME = Username of user you want to chat with and
+            TOKEN = Your Login Token, hence the chat server url is to be
+            constructed as follows:
+            <span
+              style={{
+                backgroundColor: "#808080",
+                color: "#000000",
+                padding: "2px",
+              }}
+            >
+              https://proassist.up.railway.app/chat/USERNAME/?token=TOKEN
+            </span>
           </p>
           <p>
-            <br /> The chat server url is to be constructed as follows:
-            https://proassist.up.railway.app/chat/USERNAME/?token=TOKEN
-          </p>
-          <p>
-            <br /> But for ease, two users have been been registered and signed
-            in with non expiry tokens; Jane(A Client) and John(A Professional).
+            <br /> However for ease, two users have been been registered and
+            signed in with non expiry tokens; Jane(A Client) and John(A
+            Professional).
           </p>
           <div className="buttonr">
             <a
@@ -52,9 +59,6 @@ export const ChatServer = () => {
               Chat as John
             </a>
           </div>
-          <span>
-            <br /> (Both Chat screens can be loaded on say two browser tabs)
-          </span>
         </Row>
       </Container>
     </HelmetProvider>

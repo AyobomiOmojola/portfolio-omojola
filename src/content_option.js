@@ -7,9 +7,10 @@ const meta = {
 const introdata = {
   title: "HI, I’M AYO OMOJOLA",
   animated: {
-    first: "MAINTAINING",
-    second: "TESTING",
-    third: "DEBUGGING",
+    first: "coding",
+    second: "debugging",
+    third: "shipping",
+    fourth: "scaling",
   },
   description:
     "I specialize in Coding, Debugging, Shipping, and Scaling right where Data and Logic meet.",
@@ -190,7 +191,7 @@ const contactConfig = {
 
 const socialprofils = {
   github: "https://github.com/AyobomiOmojola",
-  linkedin: "https://www.linkedin.com/in/ayobomi-omojola-956918297/",
+  linkedin: "https://www.linkedin.com/in/ayobomi-omojola/",
 };
 export {
   meta,

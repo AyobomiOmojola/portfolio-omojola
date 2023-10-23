@@ -40,12 +40,6 @@ export const Portfolio = () => {
                 <div className="tags">
                   <p>django rest framework </p>
                 </div>
-                <div className="tags">
-                  <p>django channels </p>
-                </div>
-                <div className="tags">
-                  <p>Bootstrap</p>
-                </div>
               </div>
               <div className="button">
                 <a
@@ -69,7 +63,7 @@ export const Portfolio = () => {
             <div className="content">
               <h1 className="title">ProAssist</h1>
               <p className="desc">
-                This consist of a REST API with dynamic features for webapps
+                This consists of a REST API with dynamic features for webapps
                 focused on bridging the gap between skilled professionals and
                 clients. It offers features such as creation of job openings for
                 professionals, allocation of those jobs to a qualified

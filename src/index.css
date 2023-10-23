@@ -56,9 +56,14 @@ a {
   color: var(--text-color);
 }
 a:hover {
-  color: var(--primary-color);
+  color: #000;
 }
-
+.white:hover {
+  color: #808080;
+}
+.display-4 {
+  font-size: 3rem !important;
+}
 p {
   word-break: break-word;
   hyphens: auto;

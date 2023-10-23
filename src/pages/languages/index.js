@@ -59,6 +59,20 @@ export const Language = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
+            <h1 className="display-4 mb-4">About me</h1>{" "}
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+        <p className="about">
+          Hi, I am Ayo Omojola; a self-taught programmer and entry-level backend
+          developer. In the past year, I've acquired substantial competency in a
+          diverse range of programming languages and technologies, this along
+          with my openness to learn and adaptability will allow me to blend in
+          and quickly pick up the technology stack of any company I may have the
+          opportunity to work with.
+        </p>
+        <Row className="mb-5 mt-3 pt-md-3">
+          <Col lg="8">
             <h1 className="display-4 mb-4">Language and Technologies</h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
@@ -79,19 +93,39 @@ export const Language = () => {
             </div>
           ))}
         </div>
-        <h3 className="color_sec py-4">Non Technical Skills</h3>
-        <p className="padding">
-          <strong>Communication</strong>
-        </p>
-        <p className="padding">
-          <strong>Time Management</strong>
-        </p>
-        <p className="padding">
-          <strong>Attention To Detail</strong>
-        </p>
-        <p className="padding">
-          <strong>Collaboration</strong>
-        </p>
+        <Row className="mb-5 mt-3 pt-md-3">
+          <Col lg="8">
+            <h1 className="display-4 mb-4">Non Technical Skills</h1>{" "}
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+        {/* <h3 className="color_sec py-4">Non Technical Skills</h3> */}
+
+        <ul>
+          <li>
+            {" "}
+            <p className="padding">
+              <strong>Communication</strong>
+            </p>
+          </li>
+          <li>
+            {" "}
+            <p className="padding">
+              <strong>Time Management</strong>
+            </p>
+          </li>
+          <li>
+            {" "}
+            <p className="padding">
+              <strong>Attention To Detail</strong>
+            </p>
+          </li>
+          <li>
+            <p className="padding">
+              <strong>Collaboration</strong>
+            </p>
+          </li>
+        </ul>
       </Container>
     </HelmetProvider>
   );
