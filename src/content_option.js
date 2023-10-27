@@ -11,7 +11,6 @@ const introdata = {
     second: "debugging",
     third: "maintenance",
     fourth: "shipping",
-    fifth: "scaling",
   },
   description:
     "I specialize in Coding, Debugging, Shipping, and Scaling right where Data and Logic meet.",

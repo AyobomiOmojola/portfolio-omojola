@@ -107,7 +107,7 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  /* border-radius: 10px; */
+  border-radius: 5px;
 }
 .white {
   background-color: #f1f1f1;
@@ -118,7 +118,7 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  /* border-radius: 10px; */
+  border-radius: 5px;
   color: black;
   margin: 0px 20px;
 }
@@ -131,7 +131,7 @@
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  /* border-radius: 10px; */
+  border-radius: 5px;
   border: 1px solid #323232;
 }
 .tag {
