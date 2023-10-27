@@ -66,9 +66,9 @@ export const Language = () => {
         <p className="about">
           Hello, I'm Ayo Omojola, a backend developer who is fascinated with
           software being built from the ground up. I've cultivated a hobby of
-          constructing web applications from scratch and have now ventured into
-          the dynamic world of contemporary technological progress, eager to be
-          a hands-on contributor to these advancements.
+          writing codes for web applications and am now venturing into the ever
+          changing world of contemporary technological progress, eager to be a
+          hands-on contributor to these advancements.
         </p>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
