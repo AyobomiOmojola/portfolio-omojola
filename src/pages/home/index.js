@@ -36,6 +36,8 @@ export const Home = () => {
                         introdata.animated.first,
                         introdata.animated.second,
                         introdata.animated.third,
+                        introdata.animated.fourth,
+                        introdata.animated.fifth,
                       ],
                       autoStart: true,
                       loop: true,
@@ -58,7 +60,7 @@ export const Home = () => {
                   </a>
                   <a href="#contact">
                     <div id="button_h" className="ac_btn btn">
-                      Resume
+                      Contact Me
                     </div>
                   </a>
                 </div>

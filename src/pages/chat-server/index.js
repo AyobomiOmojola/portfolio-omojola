@@ -20,9 +20,9 @@ export const ChatServer = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
           <p>
-            In order to activate the chat server you need to have registered and
-            logged in to ProAssist through the swagger-ui in order to get your
-            login Token
+            In order to activate the chat server you need to have been
+            registered and logged in to ProAssist through the swagger-ui in
+            order to get your login Token
           </p>
           <p>
             <br /> Where USERNAME = Username of user you want to chat with and
@@ -39,9 +39,8 @@ export const ChatServer = () => {
             </span>
           </p>
           <p>
-            <br /> However for ease, two users have been been registered and
-            signed in with non expiry tokens; Jane(A Client) and John(A
-            Professional).
+            <br /> However for ease, two users have been registered and signed
+            in with non expiry tokens; Jane(A Client) and John(A Professional).
           </p>
           <div className="buttonr">
             <a

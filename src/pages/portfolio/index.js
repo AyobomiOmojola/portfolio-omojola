@@ -23,47 +23,9 @@ export const Portfolio = () => {
         <div className=" po_items_ho hello">
           <div className="po_item">
             <div className="content">
-              <h1 className="title">TinkerTale</h1>
-              <p className="desc">
-                This REST API offers amazing possibilities for webapps that are
-                dedicated to story telling. It provides features like age-based
-                restrictions on the content users can view, a storytelling
-                competition where the highest voted stories are elevated to a
-                prestigious list and a variety of other features like archiving
-                stories, restriction of stories for non authenticated users and
-                many more.
-              </p>
-              <div className="tag">
-                <div className="tags">
-                  <p>django </p>
-                </div>
-                <div className="tags">
-                  <p>django rest framework </p>
-                </div>
-              </div>
-              <div className="button">
-                <a
-                  className="source"
-                  href="https://github.com/AyobomiOmojola/_TinkerTale_"
-                  target="_blank"
-                >
-                  Source code
-                </a>
-                <a
-                  className="white"
-                  href="https://tinkertale.up.railway.app/docs/"
-                  target="_blank"
-                >
-                  Live API Doc.
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className="po_item">
-            <div className="content">
               <h1 className="title">ProAssist</h1>
               <p className="desc">
-                This consists of a REST API with dynamic features for webapps
+                This consists of a Rest API with dynamic features for webapps
                 focused on bridging the gap between skilled professionals and
                 clients. It offers features such as creation of job openings for
                 professionals, allocation of those jobs to a qualified
@@ -105,6 +67,44 @@ export const Portfolio = () => {
                 <Link className="black" to="/chat-server">
                   Chat server
                 </Link>
+              </div>
+            </div>
+          </div>
+          <div className="po_item">
+            <div className="content">
+              <h1 className="title">TinkerTale</h1>
+              <p className="desc">
+                This Rest API offers amazing possibilities for webapps that are
+                centered around story telling. It provides features like
+                age-based restrictions on the content users can view, a
+                storytelling competition where the highest voted stories are
+                elevated to a prestigious list and a variety of other features
+                like archiving stories, restriction of stories for non
+                authenticated users and many more.
+              </p>
+              <div className="tag">
+                <div className="tags">
+                  <p>django </p>
+                </div>
+                <div className="tags">
+                  <p>django rest framework </p>
+                </div>
+              </div>
+              <div className="button">
+                <a
+                  className="source"
+                  href="https://github.com/AyobomiOmojola/_TinkerTale_"
+                  target="_blank"
+                >
+                  Source code
+                </a>
+                <a
+                  className="white"
+                  href="https://tinkertale.up.railway.app/docs/"
+                  target="_blank"
+                >
+                  Live API Doc.
+                </a>
               </div>
             </div>
           </div>

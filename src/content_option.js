@@ -9,8 +9,9 @@ const introdata = {
   animated: {
     first: "coding",
     second: "debugging",
-    third: "shipping",
-    fourth: "scaling",
+    third: "maintenance",
+    fourth: "shipping",
+    fifth: "scaling",
   },
   description:
     "I specialize in Coding, Debugging, Shipping, and Scaling right where Data and Logic meet.",

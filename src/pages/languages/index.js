@@ -64,16 +64,15 @@ export const Language = () => {
           </Col>
         </Row>
         <p className="about">
-          Hi, I am Ayo Omojola; a self-taught programmer and entry-level backend
-          developer. In the past year, I've acquired substantial competency in a
-          diverse range of programming languages and technologies, this along
-          with my openness to learn and adaptability will allow me to blend in
-          and quickly pick up the technology stack of any company I may have the
-          opportunity to work with.
+          Hello, I'm Ayo Omojola, a backend developer who is fascinated with
+          software being built from the ground up. I've cultivated a hobby of
+          constructing web applications from scratch and have now ventured into
+          the dynamic world of contemporary technological progress, eager to be
+          a hands-on contributor to these advancements.
         </p>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Language and Technologies</h1>{" "}
+            <h1 className="display-4 mb-4">Languages and Technologies</h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -93,13 +92,12 @@ export const Language = () => {
             </div>
           ))}
         </div>
-        <Row className="mb-5 mt-3 pt-md-3">
+        {/* <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
             <h1 className="display-4 mb-4">Non Technical Skills</h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        {/* <h3 className="color_sec py-4">Non Technical Skills</h3> */}
 
         <ul>
           <li>
@@ -125,7 +123,7 @@ export const Language = () => {
               <strong>Collaboration</strong>
             </p>
           </li>
-        </ul>
+        </ul> */}
       </Container>
     </HelmetProvider>
   );

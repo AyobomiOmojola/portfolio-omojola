@@ -171,8 +171,10 @@ section {
   color: var(--primary-color);
 }
 
+#button_p:hover,
 #button_h:hover {
-  /* color: var(--primary-color); */
+  color: white;
+  background-color: transparent;
 }
 
 .intro_sec .h_bg-image .block {
@@ -237,7 +239,7 @@ section {
   filter: saturate(0.5);
 }
 .Typewriter__wrapper {
-  color: red;
+  color: #ff312e;
   font-size: 20px;
 }
 .texting {
