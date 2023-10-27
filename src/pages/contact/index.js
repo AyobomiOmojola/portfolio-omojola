@@ -33,14 +33,14 @@ export const ContactUs = () => {
         contactConfig.YOUR_SERVICE_ID,
         contactConfig.YOUR_TEMPLATE_ID,
         templateParams,
-        "tsfN_i7jzAZ6vEZjH"
+        "aoDk1o3XelILhYBRG"
       )
       .then(
         (result) => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! ,Thank you for your message",
             variant: "success",
             show: true,
           });
@@ -89,7 +89,9 @@ export const ContactUs = () => {
               onClose={() => setFormdata({ show: false })}
               dismissible
             >
-              <p className="my-0">{formData.alertmessage}</p>
+              <p className="my-0" style={{ color: "black" }}>
+                {formData.alertmessage}
+              </p>
             </Alert>
           </Col>
           <Col lg="5" className="mb-5">

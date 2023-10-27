@@ -184,8 +184,8 @@ const contactConfig = {
     "I specialize in Coding, Debugging, Shipping, and Scaling right where Data and Logic meet. ",
   // creat an emailjs.com account
   // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-  YOUR_SERVICE_ID: "service_zf7dv1d",
-  YOUR_TEMPLATE_ID: "template_ffd3958",
+  YOUR_SERVICE_ID: "service_grsoa2s",
+  YOUR_TEMPLATE_ID: "template_97lnyhi",
   YOUR_USER_ID: "oluwabukunmi",
 };
 
